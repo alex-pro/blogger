@@ -79,7 +79,7 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-# production:
-#   <<: *default
-#   database: blogger_production
+production:
+  <<: *default
+  database: blogger_production
   # password: <%= ENV['BLOGGER_DATABASE_PASSWORD'] %>
