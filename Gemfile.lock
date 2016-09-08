@@ -120,6 +120,8 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    responders (2.2.0)
+      railties (>= 4.2.0, < 5.1)
     rspec-collection_matchers (1.1.2)
       rspec-expectations (>= 2.99.0.beta1)
     rspec-core (3.5.1)
@@ -181,6 +183,7 @@ DEPENDENCIES
   puma
   rack-cors
   rails
+  responders
   rspec-collection_matchers
   rspec-rails
   rubocop

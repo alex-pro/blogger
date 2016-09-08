@@ -7,6 +7,7 @@ gem 'puma'
 gem 'rack-cors'
 gem 'decent_exposure'
 gem 'active_model_serializers'
+gem 'responders'
 
 group :development, :test do
   gem 'rubocop'
